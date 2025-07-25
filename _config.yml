@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
-title: Articles Archive
-description: Markdown-архив статей
+title: Neverwriter — архив статей
+description: Мессенджеры, приватность, VPN и цифровая гигиена
+markdown: kramdown
+lang: ru
