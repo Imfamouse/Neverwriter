@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<article class="article">
+  <header class="article-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <p class="article-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          📅 {{ page.date | date: "%d.%m.%Y" }}
+        </time>
+        {% if page.category %}
+          <span class="article-category">🏷️ {{ page.category }}</span>
+        {% endif %}
+      </p>
+    {% endif %}
+    {% if page.description %}
+      <p class="article-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="article-content">
+    {{ content }}
+  </div>
+
+  <footer class="article-footer">
+    <p><a href="{{ '/' | relative_url }}">← Вернуться к списку статей</a></p>
+  </footer>
+</article>
+
+<style>
+.article-header {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #d1d5da;
+  padding-bottom: 1em;
+}
+
+.article-meta {
+  color: #586069;
+  font-size: 0.9em;
+  margin: 0.5em 0;
+}
+
+.article-category {
+  margin-left: 1em;
+}
+
+.article-description {
+  font-style: italic;
+  color: #586069;
+  margin: 1em 0;
+}
+
+.article-footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #e1e4e8;
+}
+</style>
