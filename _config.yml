@@ -11,7 +11,7 @@ collections:
 # Значения по умолчанию
 defaults:
   - scope:
-      path: "_articles"
+      path: "articles"
       type: "articles"
     values:
       layout: "article"
