@@ -1,3 +1,17 @@
 title: Articles Archive
 description: Markdown-архив статей
 theme: jekyll-theme-cayman
+
+# Настройка коллекции статей
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:name/
+
+# Значения по умолчанию
+defaults:
+  - scope:
+      path: "_articles"
+      type: "articles"
+    values:
+      layout: "article"
