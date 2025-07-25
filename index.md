@@ -1,3 +1,7 @@
+<style>
+footer { display: none; }
+</style>
+
 ---
 layout: default
 title: Архив статей
