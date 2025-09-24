@@ -20,4 +20,4 @@ defaults:
       path: "_articles"
       type: "articles"
     values:
-      layout: "default"
+      layout: "article"
