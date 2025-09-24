@@ -3,7 +3,6 @@ title: "Сравнение конфиденциальности мессендж
 date: 2025-07-25
 description: "Подробный анализ уровня приватности популярных мессенджеров"
 category: "Приватность"
-permalink: /messenger_privacy/
 ---
 ## Введение
 
@@ -117,4 +116,5 @@ permalink: /messenger_privacy/
 - [Политика конфиденциальности Telegram](https://telegram.org/privacy)
 - [Политика конфиденциальности WhatsApp](https://www.whatsapp.com/legal/privacy-policy)
 - [Политика конфиденциальности Max](https://legal.max.ru/pp)
+
 
