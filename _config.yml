@@ -2,11 +2,17 @@ title: Лонгриды
 description: Markdown-архив статей
 theme: jekyll-theme-cayman
 
+url: "https://imfamouse.github.io"   # домен пользователя
+baseurl: "/Neverwriter"               # имя репозитория проекта
+
 # Настройка коллекции статей
 collections:
   articles:
     output: true
     permalink: /:collection/:name/
+
+# Путь до ассетов для удобства
+assets_path: "/assets/img"
 
 # Значения по умолчанию
 defaults:
