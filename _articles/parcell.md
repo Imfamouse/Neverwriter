@@ -33,7 +33,10 @@ category: "Безопасность"
 
 Тут же был предложен альтернативный вариант - мне сейчас придет смс, я ей цифры скажу и **последние** 4 будут кодом для курьера (напомню, что для Госуслуг нужно 6 цифр).  Я согласился, ожидая сообщение с Госуслуг, но нет - смс мне пришла от Лемана Про, более того, я смог с этим кодом зайти в личный кабинет, который параллельно с разговором открыл на сайте (второй код на картинке - это я уже потом проверял сам). В личном кабинете было пусто, кстати. 
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/24fc69bc3f8ce5e01a57a7964fb29356116b94ac.jpg" title="" alt="Вполне себе смс от Лемана" width="317">
+<picture>
+  <img src='{{ site.assets_path | append: "/sms1.jpg" | relative_url }}'
+       alt="Смс Лемана" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 Я назвал девушке все цифры (**никогда так не делайте**), поменяв первую на всякий случай, мы же на 4 последние договаривались. Она все записала, попрощалась и сказала ждать звонка курьера. 
 
@@ -41,9 +44,15 @@ category: "Безопасность"
 
 Через 5 минут мне на телефон посыпались смски.... (номера телефонов специально оставляю - можете сразу в блок добавить, хотя я их все уже отправил куда следует: на Госуслугах есть специальный раздел).
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/c37eae50f54626112ebc1cf495415b52006fbb38.jpg" title="" alt="" width="452">
+<picture>
+  <img src='{{ site.assets_path | append: "/sms2.jpg" | relative_url }}'
+       alt="СМС-спам" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/ca6f0aae930442908725b604654c4fbb2c886538.jpg" title="" alt="" width="447">
+<picture>
+  <img src='{{ site.assets_path | append: "/sms3.jpg" | relative_url }}'
+       alt="СМС-текст" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 "*АААААА, меня взломали!!!*" - надо срочно звонить по номерам в смс! (**НЕТ НЕ НАДО**)
 
@@ -188,6 +197,7 @@ ___
 #### PPS
 
 Курьер с посылкой так и не приехал.
+
 
 
 
