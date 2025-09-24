@@ -7,7 +7,7 @@ permalink: /articles/test-md/
 Проверка вывода Markdown и картинок.
 
 ## Вариант 1: обычная Markdown-вставка
-![Подпись к изображению]({{ "/assets/img/test-md/hero.jpg" | relative_url }})
+![Подпись к изображению]({{ "/assets/img/sms1.jpg" | relative_url }})
 
 ## Вариант 2: picture с fallback
 <picture>
