@@ -14,9 +14,8 @@ permalink: /articles/test-md/
 
 ## Вариант 2: picture с fallback
 <picture>
-  <source srcset='{{ "/assets/img/test-md/hero.webp" | relative_url }}' type="image/webp">
-  <img src='{{ "/assets/img/test-md/hero.jpg" | relative_url }}'
-       alt="Обложка" loading="lazy" width="1600" height="900" style="max-width:100%;height:auto">
+  <img src='{{ "/assets/img/sms1.jpg" | relative_url }}'
+       alt="Обложка" loading="lazy" width="1000" height="500" style="max-width:100%;height:auto">
 </picture>
 
 ## Вариант 3: figure с подписью
