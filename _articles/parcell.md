@@ -34,7 +34,7 @@ category: "Безопасность"
 Тут же был предложен альтернативный вариант - мне сейчас придет смс, я ей цифры скажу и **последние** 4 будут кодом для курьера (напомню, что для Госуслуг нужно 6 цифр).  Я согласился, ожидая сообщение с Госуслуг, но нет - смс мне пришла от Лемана Про, более того, я смог с этим кодом зайти в личный кабинет, который параллельно с разговором открыл на сайте (второй код на картинке - это я уже потом проверял сам). В личном кабинете было пусто, кстати. 
 
 <picture>
-  <img src='{{ site.assets_path | append: "/sms1.jpg" | relative_url }}'
+  <img src='{{ site.assets_path | append: "/parcell/sms1.jpg" | relative_url }}'
        alt="Смс Лемана" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
 
@@ -45,14 +45,12 @@ category: "Безопасность"
 Через 5 минут мне на телефон посыпались смски.... (номера телефонов специально оставляю - можете сразу в блок добавить, хотя я их все уже отправил куда следует: на Госуслугах есть специальный раздел).
 
 <picture>
-  <img src='{{ site.assets_path | append: "/sms2.jpg" | relative_url }}'
+  <img src='{{ site.assets_path | append: "/parcell/sms2.jpg" | relative_url }}'
        alt="СМС спам" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
-
 Содержание СМС
-
 <picture>
-  <img src='{{ site.assets_path | append: "/sms3.jpg" | relative_url }}'
+  <img src='{{ site.assets_path | append: "/parcell/sms3.jpg" | relative_url }}'
        alt="СМС текст" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
 
@@ -74,7 +72,10 @@ category: "Безопасность"
 
 Еще через 5 минут мне на почту, привязанную к Госуслугам, падает письмо: 
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/25d0ed1cba6e0101b54297634ee1eed1ef2b575a.png" title="" alt="" width="430">
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/dov.png" | relative_url }}'
+       alt="Доверенность" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 Как видно, я зачем то разрешил управление всеми своими деньгами какому - то товарищу (мы к нему еще вернемся). Но если вдруг я передумал, или это были мошенники, то я могу позвонить по телефонам в поддержку! 
 
@@ -88,13 +89,19 @@ category: "Безопасность"
 
 Расчет на импульсивное действие - зачем мне звонить по номеру, когда вот уже прямо тут в телеграм можно эксперту написать. 
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/9c1961b9738603c8f769a962ed389f6cc93b4b41.png" title="" alt="" width="292">
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/TG.png" | relative_url }}'
+       alt="Телеграм" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 Дальшн давайте внимательно посмотрим на письмо. 
 
 Ниже я привел два скриншота этого письма из двух разных почтовых клиентов - популярного gmail и непопулярного, которым пользуюсь я, и который раскрывает заголовки писем автоматически (я думаю эта функция много где есть, просто выключена по умолчанию). 
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/c1125dc27f56cf39d0a77934c0e984b9b8a988ae.png" title="" alt="" width="486">
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/m1.png" | relative_url }}'
+       alt="gmail" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 Первый скрин из gmail, выглядит как очень важное письмо от Минцифры, с домена gov-ru и через mincifra.tech.   
 
@@ -114,17 +121,32 @@ category: "Безопасность"
 
 - поздравляю - вы вычислили фишинговое письмо, и если до этого сомневались почему - то стоит ли его удалять - теперь точно можно. 
 
-![](C:\Users\nikol\AppData\Roaming\marktext\images\c91abc88907ae2e7ea4e1f7e075de6f0fb9cd591.png)
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/gm1.png" | relative_url }}'
+       alt="fulltext" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
-![](C:\Users\nikol\AppData\Roaming\marktext\images\9efbf2d1781cf515be3b200d807bdf7a4b0a2f1a.png)
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/gm2.png" | relative_url }}'
+       alt="ip" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/8994c054efc53144fef285583bb4d98ae875b25e.png" title="" alt="" width="517">
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/pr1.png" | relative_url }}'
+       alt="ipcheck" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/d4275f5d57f50427705d198c0cb09e697d4d46ee.png" title="" alt="" width="529">
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/pr2.png" | relative_url }}'
+       alt="host" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 ___
 
-<img src="file:///C:/Users/nikol/AppData/Roaming/marktext/images/9e78fb8043325c8312c0f8f56fdfbfe5752580fa.png" title="" alt="" width="436">
+<picture>
+  <img src='{{ site.assets_path | append: "/parcell/m2.png" | relative_url }}'
+       alt="mail" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+</picture>
 
 В другом почтовом клиенте сразу очевидно, что это фейк от некой *говруси* и можно дальше не читать:) 
 
@@ -199,6 +221,7 @@ ___
 #### PPS
 
 Курьер с посылкой так и не приехал.
+
 
 
 
