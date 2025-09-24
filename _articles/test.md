@@ -14,8 +14,8 @@ permalink: /articles/test-md/
 
 ## Вариант 2: picture с fallback
 <picture>
-  <img src='{{ "/assets/img/sms1.jpg" | relative_url }}'
-       alt="Обложка" loading="lazy" width="1000" height="500" style="max-width:100%;height:auto">
+  <img src='{{ site.assets_path | append: "/sms1.jpg" | relative_url }}'
+       alt="Обложка" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
 
 ## Вариант 3: figure с подписью
@@ -26,7 +26,3 @@ permalink: /articles/test-md/
   <figcaption>Подпись: кратко что на картинке.</figcaption>
 </figure>
 
-Ссылки для проверки:
-- Открыть JPG: [hero.jpg]({{ "/assets/img/test-md/hero.jpg" | relative_url }})
-- Открыть WebP: [hero.webp]({{ "/assets/img/test-md/hero.webp" | relative_url }})
-- Открыть PNG: [diagram-1.png]({{ "/assets/img/test-md/diagram-1.png" | relative_url }})
