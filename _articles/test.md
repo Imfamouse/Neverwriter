@@ -1,0 +1,29 @@
+---
+title: "Тест Markdown"
+permalink: /articles/test-md/
+# layout можно не указывать, если в defaults уже задан
+---
+
+Проверка вывода Markdown и картинок.
+
+## Вариант 1: обычная Markdown-вставка
+![Подпись к изображению]({{ "/assets/img/test-md/hero.jpg" | relative_url }})
+
+## Вариант 2: picture с fallback
+<picture>
+  <source srcset='{{ "/assets/img/test-md/hero.webp" | relative_url }}' type="image/webp">
+  <img src='{{ "/assets/img/test-md/hero.jpg" | relative_url }}'
+       alt="Обложка" loading="lazy" width="1600" height="900" style="max-width:100%;height:auto">
+</picture>
+
+## Вариант 3: figure с подписью
+<figure style="text-align:center">
+  <img src='{{ "/assets/img/test-md/diagram-1.png" | relative_url }}'
+       alt="Схема" loading="lazy" width="1200" height="700" style="max-width:100%;height:auto">
+  <figcaption>Подпись - кратко что на картинке.</figcaption>
+</figure>
+
+Ссылки для проверки:
+- Открыть JPG: [hero.jpg]({{ "/assets/img/test-md/hero.jpg" | relative_url }})
+- Открыть WebP: [hero.webp]({{ "/assets/img/test-md/hero.webp" | relative_url }})
+- Открыть PNG: [diagram-1.png]({{ "/assets/img/test-md/diagram-1.png" | relative_url }})
