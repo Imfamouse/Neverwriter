@@ -1,8 +1,11 @@
 ---
-title: "Тест Markdown"
+title: "Тест картинок"
+date: 2025-09-24
+description: "Тест"
+category: "Безопасность"
 permalink: /articles/test-md/
-# layout можно не указывать, если в defaults уже задан
 ---
+
 
 Проверка вывода Markdown и картинок.
 
