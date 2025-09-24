@@ -20,9 +20,10 @@ permalink: /articles/test-md/
 
 ## Вариант 3: figure с подписью
 <figure style="text-align:center">
-  <img src='{{ "/assets/img/test-md/diagram-1.png" | relative_url }}'
-       alt="Схема" loading="lazy" width="1200" height="700" style="max-width:100%;height:auto">
-  <figcaption>Подпись - кратко что на картинке.</figcaption>
+  <img src='{{ site.assets_path | append: "/sms1.jpg" | relative_url }}'
+       alt="Схема процесса" loading="lazy" width="1200" height="700"
+       style="max-width:100%;height:auto">
+  <figcaption>Подпись: кратко что на картинке.</figcaption>
 </figure>
 
 Ссылки для проверки:
