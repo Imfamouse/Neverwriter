@@ -74,7 +74,7 @@ category: "Безопасность"
 
 <picture>
   <img src='{{ site.assets_path | append: "/parcell/dov.png" | relative_url }}'
-       alt="Доверенность" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+       alt="Доверенность" loading="lazy" width="500" height="300" style="max-width:100%;height:auto">
 </picture>
 
 Как видно, я зачем то разрешил управление всеми своими деньгами какому - то товарищу (мы к нему еще вернемся). Но если вдруг я передумал, или это были мошенники, то я могу позвонить по телефонам в поддержку! 
@@ -94,7 +94,7 @@ category: "Безопасность"
        alt="Телеграм" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
 
-Дальшн давайте внимательно посмотрим на письмо. 
+Дальше давайте внимательно посмотрим на письмо. 
 
 Ниже я привел два скриншота этого письма из двух разных почтовых клиентов - популярного gmail и непопулярного, которым пользуюсь я, и который раскрывает заголовки писем автоматически (я думаю эта функция много где есть, просто выключена по умолчанию). 
 
@@ -123,32 +123,30 @@ category: "Безопасность"
 
 <picture>
   <img src='{{ site.assets_path | append: "/parcell/gm1.png" | relative_url }}'
-       alt="fulltext" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+       alt="fulltext" loading="lazy" width="500" height="300" style="max-width:100%;height:auto">
 </picture>
-
+___
 <picture>
   <img src='{{ site.assets_path | append: "/parcell/gm2.png" | relative_url }}'
-       alt="ip" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+       alt="ip" loading="lazy" width="500" height="300" style="max-width:100%;height:auto">
 </picture>
-
+___
 <picture>
   <img src='{{ site.assets_path | append: "/parcell/pr1.png" | relative_url }}'
        alt="ipcheck" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
-
+___
 <picture>
   <img src='{{ site.assets_path | append: "/parcell/pr2.png" | relative_url }}'
        alt="host" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
 
 ___
-
+В другом почтовом клиенте сразу очевидно, что это фейк от некой *говруси* и можно дальше не читать:) 
 <picture>
   <img src='{{ site.assets_path | append: "/parcell/m2.png" | relative_url }}'
        alt="mail" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
-
-В другом почтовом клиенте сразу очевидно, что это фейк от некой *говруси* и можно дальше не читать:) 
 
 **Что еще можно сделать для проверки подобных писем?** 
 
@@ -221,6 +219,7 @@ ___
 #### PPS
 
 Курьер с посылкой так и не приехал.
+
 
 
 
