@@ -46,12 +46,12 @@ category: "Безопасность"
 
 <picture>
   <img src='{{ site.assets_path | append: "/sms2.jpg" | relative_url }}'
-       alt="СМС-спам" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+       alt="СМС спам" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
-
+Содержание СМС
 <picture>
   <img src='{{ site.assets_path | append: "/sms3.jpg" | relative_url }}'
-       alt="СМС-текст" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
+       alt="СМС текст" loading="lazy" width="400" height="200" style="max-width:100%;height:auto">
 </picture>
 
 "*АААААА, меня взломали!!!*" - надо срочно звонить по номерам в смс! (**НЕТ НЕ НАДО**)
@@ -197,6 +197,7 @@ ___
 #### PPS
 
 Курьер с посылкой так и не приехал.
+
 
 
 
